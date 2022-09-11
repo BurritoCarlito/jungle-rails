@@ -1,2 +1,19 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Adminstrator Dashboard</h1>
+<br>
+<h2> Online Store Information </h2>
+<div class="panel panel-default items">
+  <table class="table table-bordered">
+    <thread>
+      <tr>
+        <th>Amount of Products</th>
+        <th>Amount of Product Categories</th>
+      </tr>
+      <tbody>
+        <tr>
+          <td><%= @product_count %></td>
+          <td><%= @category_count %></td>
+        </tr>
+      </tbody>
+    </thread>
+  </table>
+</div>
